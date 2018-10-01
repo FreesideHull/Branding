@@ -1,66 +1,119 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset='utf-8' />
-		<title>Freeside</title>
-	</head>
-	<body>
-		<h1><img src="freeside.svg" alt="Freeside" /></h1>
-		
-		<h2>What is Freeside?</h2>
-		<p>Freeside is the Linux user group at Hull University. Our aim is to educate ourselves (and others!) about alternative open computing and free software.</p>
-		
-		<h2>Where?</h2>
-		<p>We have a lab of Linux machines right next to RBB-LTD - follow the signs from the lift on the 3rd floor of the Robert Blackburn Building.</p>
-		
-		<h2>What can we offer?</h2>
-		<ul>
-			<li>A space to meet with and learn from other students with similar interests</li>
-			<li>Experience managing a Linux network (our lab is student-administrated!)</li>
-			<li>Custom Linux virtual machines</li>
-		</ul>
-		
-		<h2>Connect with us!</h2>
-		<ul class="connect-options">
-			<li>
-				Visit our website: <br />
-				<a href="https://freeside.co.uk/">https://freeside.co.uk/</a>
-			<li>
-				<img src="discord.svg" alt="Discord Logo" />
-				<a href="https://freeside.co.uk/">http://discord.freeside.co.uk/</a>
-			</li>
-		</ul>
-		<!-- - - - - - - - - - - - - -->
-		<style>
-			html, body { font-size: 100%; }
-			body
-			{
-				margin: 0; padding: 0;
-			    font-family: sans-serif;
-			}
-			
-			h1 { text-align: center; }
-			h1 img {
-				max-height: 10em;
-				padding-right: 1em;
-			}
-			
-			h1, h2 { color: #555555; }
-			
-			p, li { line-height: 1.35em; }
-			
-			.connect-options {
-				display: flex;
-				align-items: center;
-				justify-content: space-evenly;
-				
-				list-style-type: none;
-				margin: 0; padding: 0;
-			}
-			.connect-options > li {
-				margin: 1em;
-				text-align: center;
-			}
-		</style>
-	</body>
+
+<head>
+    <meta charset='utf-8' />
+    <title>Freeside</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div id="header"><img src="freeside.svg" alt="Freeside" /></div>
+
+    <div id="content">
+        <h2>What is Freeside?</h2>
+        <p>Freeside is the Linux user group at Hull University. Our aim is to educate ourselves (and others!) about alternative open computing and free software.</p>
+        <hr>
+        <h2>Where?</h2>
+        <p>We have a lab of Linux machines right next to RBB-LTD - follow the signs from the lift on the 3rd floor of the Robert Blackburn Building.</p>
+        <hr>
+        <h2>What can we offer?</h2>
+        <ul>
+            <li>A space to meet with and learn from other students with similar interests</li>
+            <li>Experience managing a Linux network (our lab is student-administrated!)</li>
+            <li>Custom Linux virtual machines</li>
+        </ul>
+        <hr>
+        <center>
+            <h2>Connect with us!</h2>
+        </center>
+            <ul class="connect-options">
+                <li>
+                    <ul id="links">
+
+                        <i class="fas fa-globe"></i><a href="https://freeside.co.uk/"> Freeside.co.uk</a>
+                        <li><i class="fab fa-facebook"></i> <a href="http://facebook.com/freesidehull">Freeside</a></li>
+                        <li>
+                            <i class="fab fa-twitter-square"></i> <a href="http://twitter.com/freesidehull">@FreesideHull</a>
+                        </li>
+                    </ul>
+                    <li>
+                        <img src="discord.svg" alt="Discord Logo" />
+                        <a href="https://freeside.co.uk/">http://discord.freeside.co.uk/</a>
+                    </li>
+            </ul>
+    </div>
+    <!-- - - - - - - - - - - - - -->
+    <style>
+
+        @page {
+                    size: Letter;
+                                margin: 0;
+                                background-color: #323232
+                                        }
+
+
+    
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            color: #fff;
+            height: 100%;
+            background-color: #323232;
+        }
+        
+        #header {
+            
+            text-align: center;
+            background-color: #fff;
+        }
+        
+        #header img {
+        padding-top:5px;
+            padding-right: 1em;
+        }
+        
+        h1,
+        h2 {
+            color: #FE6431
+        }
+        
+         h,
+         h {
+            line-height: 1.35em
+        }
+        
+        a {
+            color: #FE6431;
+            text-decoration: none;
+        }
+        
+        .connect-options {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .connect-options > li {
+            margin: 1em;
+            text-align: center;
+        }
+        
+        #links {
+            list-style-type: none;
+            text-align: left;
+        }
+        
+        #content {
+            padding: 25px;
+        }
+    </style>
+</body>
+
 </html>
