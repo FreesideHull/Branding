@@ -36,7 +36,7 @@
 					<div><i class="fab fa-twitter-square"></i> <a href="http://twitter.com/freesidehull">@FreesideHull</a></div>
 				</td>
 				<td>
-					<img src="discord.png" alt="Discord Logo" />
+					<img class="logo-large" src="discord.png" alt="Discord Logo" />
 					<br />
 					<a href="https://freeside.co.uk/">http://discord.freeside.co.uk/</a>
 				</td>
@@ -51,8 +51,7 @@
 			background-color: #323232
 		}
 
-		body,
-		html {
+		html, body {
 			margin: 0;
 			padding: 0;
 			font-family: 'Open Sans', sans-serif;
@@ -60,9 +59,15 @@
 			height: 100%;
 			background-color: #323232;
 		}
-
+		
+		h1, h2 {
+			text-align: center;
+			color: #FE6431;
+			line-height: 1.35em;
+		}
+		
 		h1 {
-			margin-top: 0;
+			margin: 0 0 0.25em 0;
 			padding: 0.5em 1em 0 0;
 			
 			text-align: center;
@@ -70,28 +75,32 @@
 		}
 
 		h1 > img {
-			max-height: 10em;
+			max-height: 7.5em;
 		}
 
-		h1,
 		h2 {
-			text-align: center;
-			color: #FE6431;
-			line-height: 1.35em;
+			margin: 0.1em 0;
 		}
+		
+		h2 + p, h2 + ul { margin-top: 0.1em; }
 		
 		a {
 			color: #FE6431;
 			text-decoration: none;
 		}
 		
-		.connect-options { width: 100%; }
+		.connect-options {
+			width: 100%;
+			border-collapse: collapse;
+		}
 		.connect-options td {
 			width: 50%;
-			margin: 1em;
+			margin: 0 1em;
 			
 			text-align: center;
 		}
+		
+		.logo-large { max-height: 2em; max-width: 10em; }
 		
 		
 		#links {
@@ -100,7 +109,7 @@
 		}
 		
 		#content {
-			padding: 25px;
+			padding: 0 25px;
 		}
 	</style>
 </body>
