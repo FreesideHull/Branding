@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset='utf-8' />
+	<title>Freeside</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+</head>
+
+<body>
+
+	<h1 id="header"><img src="freeside.svg" alt="Freeside" /></h1>
+
+	<div id="content">
+		<h2>What is Freeside?</h2>
+		<p>Freeside is the Linux user group at the University of Hull. Our aim is to educate ourselves (and others!) about alternative open computing and free software.</p>
+		<hr>
+		<h2>Where?</h2>
+		<p>We have a lab of Linux machines right next to RBB-LTD - follow the signs from the lift on the 3rd floor of the Robert Blackburn Building.</p>
+		<hr>
+		<h2>What can we offer?</h2>
+		<ul>
+			<li>A space to meet with and learn from other students with similar interests</li>
+			<li>Experience managing a Linux network (our lab is student-administrated!)</li>
+			<li>Custom Linux virtual machines</li>
+		</ul>
+		<hr>
+		<h2>Connect with us!</h2>
+		
+		<table class="connect-options">
+			<tr>
+				<td id="links">
+					<div><i class="fas fa-globe"></i><a href="https://freeside.co.uk/"> Freeside.co.uk</a></div>
+					<div><i class="fab fa-facebook"></i> <a href="http://facebook.com/freesidehull">Freeside</a></div>
+					<div><i class="fab fa-twitter-square"></i> <a href="http://twitter.com/freesidehull">@FreesideHull</a></div>
+				</td>
+				<td>
+					<img class="logo-large" src="discord.png" alt="Discord Logo" />
+					<br />
+					<a href="https://freeside.co.uk/">http://discord.freeside.co.uk/</a>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<!-- - - - - - - - - - - - - -->
+	<style>
+		@page {
+			size: A5;
+			margin: 0;
+			background-color: #323232
+		}
+
+		html, body {
+			margin: 0;
+			padding: 0;
+			font-family: 'Open Sans', sans-serif;
+			color: #fff;
+			height: 100%;
+			background-color: #323232;
+		}
+		
+		h1, h2 {
+			text-align: center;
+			color: #FE6431;
+			line-height: 1.35em;
+		}
+		
+		h1 {
+			margin: 0 0 0.25em 0;
+			padding: 0.5em 1em 0 0;
+			
+			text-align: center;
+			background-color: #fff;
+		}
+
+		h1 > img {
+			max-height: 7.5em;
+		}
+
+		h2 {
+			margin: 0.1em 0;
+		}
+		
+		h2 + p, h2 + ul { margin-top: 0.1em; }
+		
+		a {
+			color: #FE6431;
+			text-decoration: none;
+		}
+		
+		.connect-options {
+			width: 100%;
+			border-collapse: collapse;
+		}
+		.connect-options td {
+			width: 50%;
+			margin: 0 1em;
+			
+			text-align: center;
+		}
+		
+		.logo-large { max-height: 2em; max-width: 10em; }
+		
+		
+		#links {
+			list-style-type: none;
+			text-align: left;
+		}
+		
+		#content {
+			padding: 0 25px;
+		}
+	</style>
+</body>
+
+</html>
