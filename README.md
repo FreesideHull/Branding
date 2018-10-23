@@ -2,7 +2,7 @@
 
 > The Freeside logos.
 
-This repository contains the Freeside logos. The PNG is the original, and the SVG is a (modified) trace done in [Inkscape](https://inkscape.org/).
+This repository contains the Freeside logos. The PNG is the original, as designed by @shinsters in Adobe Fireworks (a Freeside Alumni). The SVG is a (modified) trace done in [Inkscape](https://inkscape.org/).
 
 ## PNG
 ![](https://raw.githubusercontent.com/FreesideHull/Logos/master/freeside.png)
