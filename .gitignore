@@ -19,3 +19,12 @@
 
 
 # End of https://www.gitignore.io/api/git
+
+# Created by https://www.gitignore.io/api/libreoffice
+# Edit at https://www.gitignore.io/?templates=libreoffice
+
+### LibreOffice ###
+# LibreOffice locks
+.~lock.*#
+
+# End of https://www.gitignore.io/api/libreoffice
