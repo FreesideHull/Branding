@@ -1,10 +1,14 @@
 #!/usr/bin/env bash
 
+source="${1:-flyer.html}";
+
+target="${source%.*}.pdf"
+
 # Build the flyer
-weasyprint flyer.html flyer.pdf -v
+weasyprint "${source}" "${target}" -v
 
 # If evince is installed, preview the pdf
 which evince >/dev/null 2>&1
 if [[ "$?" -eq 0 ]]; then
-	evince flyer.pdf;
+	evince "${target}";
 fi
