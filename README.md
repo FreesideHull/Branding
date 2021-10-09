@@ -1,8 +1,11 @@
-# Freeside Logos
+# Freeside Branding
 
-> The Freeside logos.
+> The Freeside logos and other branding material.
 
-This repository contains the Freeside logos. The PNG is the original, as designed by @shinsters in Adobe Fireworks (a Freeside Alumni). The SVG is a (modified) trace done in [Inkscape](https://inkscape.org/).
+This repository contains the Freeside logos and other branding material. The PNG is the original, as designed by @shinsters in Adobe Fireworks (a Freeside Alumni). The SVG is a (modified) trace done in [Inkscape](https://inkscape.org/).
+
+We also have a poster in the `Poster` directory. The `Materials/` directory contains a flyer, another poster, and a template slide deck for presentations.
+
 
 ## PNG
 ![](https://raw.githubusercontent.com/FreesideHull/Logos/master/freeside.png)
